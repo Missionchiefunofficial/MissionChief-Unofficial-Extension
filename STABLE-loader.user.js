@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MissionChief Unofficial Game Extension
 // @namespace    https://missionchief-unofficial.com
-// @version      4.0.0
+// @version      5.0.0
 // @description  Realism location markers with click to build option or view on OSM & Google Maps auto translates to the following languages: UK, US, AU, DE, PT, NL, ES, PL, SE, IT, FR, RU, CZ, DK, JP, KR, NO, RO, SK, TR, BR, MX, FL, UA
 // @author       MissionChief Unofficial Team
 // @icon         https://www.missionchief-unofficial.com/logo/MCUBS.png
@@ -43,8 +43,8 @@
 // @match        https://polis.larmcentralen-spelet.se/*
 // @match        https://www.112-merkez.com/*
 // @match        https://www.dyspetcher101-game.com/*
-// @downloadURL  https://www.missionchief-unofficial.com/scripts/stable/STABLE-loader.user.js
-// @updateURL    https://www.missionchief-unofficial.com/scripts/stable/STABLE-loader.user.js
+// @downloadURL  https://www.missionchief-unofficial.com/scripts/zywyhdtcgodfxpa/.loaders/STABLE-loader.user.js
+// @updateURL    https://www.missionchief-unofficial.com/scripts/zywyhdtcgodfxpa/.loaders/STABLE-loader.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
@@ -54,7 +54,7 @@
 
     function loadMissionChiefEnhancer() {
         const script = document.createElement('script');
-        script.src = 'https://missionchief-unofficial.com/scripts/stable/missionchiefenhancer.js';
+        script.src = 'https://missionchief-unofficial.com/scripts/zywyhdtcgodfxpa/missionchiefenhancer.js';
         script.onload = () => console.log('MissionChief Enhancer loaded successfully');
         script.onerror = (error) => console.error('Error loading MissionChief Enhancer:', error);
         document.head.appendChild(script);
